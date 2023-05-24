@@ -1,0 +1,41 @@
+body
+{
+    display: flex;
+    background-color: rgb(58, 58, 219);
+    padding: 20% 0;
+}
+
+.container
+{
+    margin: auto;
+    padding: 2% 10%;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    box-shadow: 0 4px 5px black;
+}
+.container h3
+{
+    text-align: center;
+}
+#birthDate
+{
+    background-color: rgba(255, 255, 255, 0.64);
+    border: none;
+    color: black;
+    padding: 6px 10px;
+}
+#calculate
+{
+    padding: 8px 12px;
+    background-color: rgb(59, 158, 59);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    transition: ease .3s;
+}
+#calculate:hover
+{
+    background-color: rgb(46, 125, 46);
+    color: rgb(233, 233, 233);
+    transform: scale(1.1, 1.2);
+}
